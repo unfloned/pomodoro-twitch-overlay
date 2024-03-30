@@ -1,6 +1,7 @@
 import {Fragment, useEffect, useState} from "react";
 import ComfyJS from "comfy.js";
 import {Pomodoro} from "./components/pomodoro.tsx";
+// @ts-ignore
 import {Splide, SplideSlide} from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import {Settings} from "./components/settings.tsx";
