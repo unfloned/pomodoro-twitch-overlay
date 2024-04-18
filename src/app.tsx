@@ -8,7 +8,6 @@ import {Settings} from "./components/settings.tsx";
 import {useTime} from "./provider/pomodoro.tsx";
 import {Task, Tasks} from "./interfaces.ts";
 
-const twitchChannel = "unfloned";
 
 export const App = () => {
     const { channel } = useTime();
@@ -18,7 +17,7 @@ export const App = () => {
         if( flags.broadcaster && command === "tclear" ) {
             console.log(message);
             setTasks([]);
-            ComfyJS.Say("Tasks clears", twitchChannel);
+            //ComfyJS.Say("Tasks clears", channel);
         }
 
         if( flags.broadcaster && command === "tremove" ) {
