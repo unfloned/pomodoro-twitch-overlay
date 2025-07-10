@@ -17,7 +17,7 @@ Tasks are presented in a vertical slideshow that automatically scrolls through. 
 
 ### Using the Hosted Application
 
-Simply visit [https://pomodoro.devflo.de/](https://pomodoro.devflo.de/) to use the application without needing to install or host it yourself. This is the easiest way to get started and is recommended for those who wish to use the application quickly.
+Simply visit [https://pomodoro.florian-chiorean.de/](https://pomodoro.florian-chiorean.de/) to use the application without needing to install or host it yourself. This is the easiest way to get started and is recommended for those who wish to use the application quickly.
 
 ### Self-Hosting
 
@@ -28,7 +28,7 @@ Simply visit [https://pomodoro.devflo.de/](https://pomodoro.devflo.de/) to use t
 
 3. Regardless of the method you choose, you need to integrate the application with OBS:
     - In OBS, add a new "Browser" source to your scene.
-    - Enter the URL of your self-hosted instance or `https://pomodoro.devflo.de/` in the "URL" field.
+    - Enter the URL of your self-hosted instance or `https://pomodoro.florian-chiorean.de` in the "URL" field.
     - Adjust the width and height to match your stream's resolution for optimal display.
     - With the "Browser" source selected, click on the "Interact" button in OBS. This will open a window allowing you to interact with the application directly in OBS.
     - It is essential to enter your Twitch channel name in the settings (accessible via the icon in the bottom right corner of the application interface) to enable chat integration and commands.
