@@ -1,5 +1,5 @@
 # Verwenden eines offiziellen Node.js Basisbildes
-FROM node:16-alpine as build
+FROM node:24-alpine as build
 
 # Setzen des Arbeitsverzeichnisses im Container
 WORKDIR /app
